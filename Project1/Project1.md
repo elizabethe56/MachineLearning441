@@ -1,34 +1,3 @@
-```python
-#@title
-%matplotlib inline
-%config InlineBackend.figure_format = 'retina'
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-mpl.rcParams['figure.dpi'] = 120
-
-import numpy as np
-import pandas as pd
-from math import ceil
-from scipy import linalg
-from scipy.interpolate import interp1d
-
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import StandardScaler
-import scipy.stats as stats
-from sklearn.model_selection import train_test_split as tts, KFold
-from sklearn.metrics import mean_squared_error as mse
-import statsmodels.api as sm
-from math import ceil
-from IPython.display import Image
-from IPython.display import display
-plt.style.use('seaborn-white')
-
-# the following line(s) are necessary if you want to make SKlearn compliant functions
-from sklearn.base import BaseEstimator, RegressorMixin
-from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
-```
-
 # Project 1
 
 
@@ -264,7 +233,7 @@ plt.show()
 
 ```python
 # import the cars data
-data = pd.read_csv('/content/drive/MyDrive/AdvML (441)/data/cars.csv')
+data = pd.read_csv('cars.csv')
 data
 ```
 
