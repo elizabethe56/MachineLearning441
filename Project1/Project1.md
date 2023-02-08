@@ -20,8 +20,10 @@ To solve for the coefficients, there are several matrix manipulations we must ma
 
 First, we multiply by the transpose of $X$ to make $X^TX$ a square, then  multiply by the inverse of $X^TX$ (assuming $X^TX$ is invertible).  
 
+<div class="math">
 $$\begin{align} X^Ty &= X^TX \cdot B + \sigma X^T \epsilon \\
 (X^TX)^{-1}(X^Ty) &= (X^TX)^{-1}(X^TX) \cdot B + \sigma (X^TX)^{-1}(X^T \epsilon) \end{align}$$
+</div>
 
 Since a matrix times its own inverse is equal to the identity matrix, we then solve for the coefficient vector, $B$.  
 
