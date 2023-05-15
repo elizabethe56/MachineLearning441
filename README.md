@@ -9,4 +9,5 @@ Spring 2023 Advanced Applied Machine Learning with Professor Daniel Vasiliu
 
 ## Final Research Paper
 [Identifying Lifestyle Factors Affecting Weight Using Machine Learning Tools](https://elizabethe56.github.io/MachineLearning441/Final%20Research%20Paper.pdf)
+
 [Python Notebook](https://elizabethe56.github.io/MachineLearning441/Final_Project_Code.html)
